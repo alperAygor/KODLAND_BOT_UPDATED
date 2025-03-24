@@ -5,7 +5,7 @@ IF %ERRORLEVEL% NEQ 0 (
     echo Python sistemde bulunamadi, yukleniyor...
     REM Python yükleyicisini çalıştır
     REM Python yükleyicisinin tam yolunu yazın (örn. python-3.x.x.exe)
-    start /wait python-3.x.x.exe /quiet InstallAllUsers=1 PrependPath=1
+    start /wait python-3.13.2.exe /quiet InstallAllUsers=1 PrependPath=1
     echo Python kurulumu tamamlandi.
 ) ELSE (
     echo Python zaten yüklü: %ERRORLEVEL%
